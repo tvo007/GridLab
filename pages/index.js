@@ -15,7 +15,7 @@ export default function Home () {
 
   return (
     <Container>
-      <BasicGrid style={{paddingBottom: '2rem'}}>
+      <BasicGrid>
         <Card>1</Card>
         <Card>2</Card>
         <Card>3</Card>
@@ -23,7 +23,7 @@ export default function Home () {
         <Card>5</Card>
         <Card>6</Card>
       </BasicGrid>
-      <PhotoGrid style={{paddingBottom: '2rem'}}>
+      <PhotoGrid>
         {displayImages}
       </PhotoGrid>
       <AnimatedGrid>

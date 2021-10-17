@@ -55,6 +55,7 @@ export const CardWide = styled.div`
 `;
 
 export const BasicGrid = styled.section`
+padding-bottom: 2rem;
     display: grid;
     gap: 1rem;
 
@@ -72,6 +73,9 @@ export const BasicGrid = styled.section`
 `;
 
 export const PhotoGrid = styled.section`
+
+padding-bottom: 2rem;
+
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
